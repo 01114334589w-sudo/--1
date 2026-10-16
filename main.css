@@ -1,0 +1,109 @@
+  
+ .product-card {
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    background: rgb(65, 146, 200);
+    overflow: hidden;
+}
+.product-image {
+    position: relative;
+    overflow: hidden;
+}
+.cart-btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: rgb(21, 232, 6);
+    color: rgb(53, 7, 206);
+    cursor: pointer;
+
+    transform: translateY(100%);
+    transition: transform 0.4s ease;
+}
+
+.product-image:hover .cart-btn {
+    transform: translateY(0);
+}
+
+.product-image:hover img {
+    transform: scale(1.05);
+}
+
+.product-card h3 {
+    font-size: 18px;
+    color: #741b62;
+}
+
+.product-card p {
+    color: #b22222;
+}
+
+
+
+
+
+ .product-card {
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    background: rgb(133, 2, 117);
+    overflow: hidden;
+
+
+
+
+
+
+
+
+.product-image {
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+
+
+
+.product-image img {
+    width: 100%;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.cart-btn {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: rgb(21, 232, 6);
+    color: rgb(53, 7, 206);
+    cursor: pointer;
+
+    transform: translateY(100%);
+    transition: transform 0.4s ease;
+}
+
+.product-image:hover .cart-btn {
+    transform: translateY(0);
+}
+
+.product-image:hover img {
+    transform: scale(1.05);
+}
+
+.product-card h3 {
+    font-size: 18px;
+    color: #741b62;
+}
+
+.product-card p {
+    color: #b22222;
+}
